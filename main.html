@@ -155,7 +155,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：2　クリア！</div>
               <div class="clear-message__content">黒板の指示に従い、<br>
                 次のステージの謎を解こう！</div>
-                <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
+                <button v-on:click="nextStage('stage22')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
@@ -168,7 +168,7 @@ Youtube貼り付けここまで -->
         クリア画面の「次のステージへ」ボタンをクリックしたら表示します。
         v-if="next['stage1']"はnext['stage1']がtrueになったら表示します。
       ----------------------------------------------------------------------->
-      <div v-if="next['stage1']" id="sectionStage2" class="stage">
+      <div v-if="next['stage22']" id="sectionStage2" class="stage">
         <section>
           <div class="section">
             <div class="container">
